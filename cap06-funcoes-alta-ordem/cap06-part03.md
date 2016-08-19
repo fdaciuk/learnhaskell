@@ -14,7 +14,7 @@ Você provavelmente já sabe que cada um deles pode ser realizado com uma compre
 [code]map (+3) [1,5,3,1,6][/code] é o mesmo que escrever [code][x+3 | x &lt;- [1,5,3,1,6]][/code]. 
 Tanto faz, utilizar [code]map[/code] é muito mais legível em muitas situações onde você só pode 
 aplicar alguma função em um elemento da lista, especialmente depois que você estiver lidando com 
-mapas de mapas ter que lidar com uma série de colchetes pode ser um pouco bagunçado.
+mapas de mapas, e tiver que lidar com uma série de colchetes, isso pode ficar um pouco bagunçado.
 
 [fuction]filter[/code] é uma função que recebe um predicado (um predicado é uma função que diz que 
 qualquer coisa é verdadeira ou não, nesse caso, uma função que retorna um valor booleano) e uma 
